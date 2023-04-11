@@ -67,7 +67,6 @@ def get_user():
 
             ex_StickyFactor_cell.stickiness = ex_TotalValues_cell.total_inputs / total_users
             db.session.commit()
-            db.session.close()
     return "user data received!"
 
 
